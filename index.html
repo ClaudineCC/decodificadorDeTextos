@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodificarDeTexto</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <header class="conteudo_logo"> <!--cabecalho-->
+
+        <img src="imagem/Logo.png" alt="logotipo alura">
+
+    </header>
+
+
+
+
+
+    <main class="conteudo__principal"> <!--conteudo principal--> 
+
+
+        <section class="conteudo__apresentacaoLadoA"><!-- elementos filhos -->
+
+            <div class="conteudo__ladoA">
+                
+                <!--campo  textarea para usuario escrever-->
+                <textarea id="ladoA" rows="20" cols="80" placeholder="digite seu texto  "></textarea>
+                <!--entrada de TEXTO original digitado pelo usuario - 1 campo de entrada-->
+
+                <p class="conteudo__alerta"><img src="imagem/exclamacao.png"> Apenas letras minusculas e sem acento.</p>
+
+                <div class="conteudo__botao">
+
+                    <button class="conteudo__botao__usuario" onclick="criptografar()">Criptografar</button>
+                    <!-- função criptografar -->
+
+                    <button class="conteudo__botao__usuario" onclick="descriptografar()">Descriptografar</button>
+                    <!-- função descriptografar-->
+                </div>
+            </div>
+        </section>
+
+
+        <div class="conteudo__ladoB">  <!-- container branco recebe os itens abaixo-->
+
+            <textarea  id="ladoB" class= "textarea"  rows="02" cols="30" placeholder="texto criptografado aqui"></textarea>  <!-- aqui ocorre a troca de conteudo dinamico: os elementos: imagem, h2 e p somem para entrar o resultado do campo a criptografado-->
+
+            <div class="conteudo__campo__resultado">  
+
+                <img class="conteudo__imagem" src="imagem/High quality products.jpg" alt="imagem a procura" id="imagemResultado">
+
+                <div class="conteudo__aviso"  id="recados">
+                    <h2> Nenhuma mensagem encontrada</h2>
+                    <div class="conteudo__digiteAqui" id="recados">
+                        <p> Digite um texto que você deseja criptografar ou descriptografar</p>
+                        <!-- saida  de texto criptografado no campo ao lado -->
+                         
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="conteudo__botao">
+
+                <button class="conteudo__botao__usuario1" onclick="copiarTexto()">Copiar</button>
+                <!--função copiar para uma area de transferencia-->
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </main>
+
+
+
+
+    <footer class="rodape">
+
+        <p> Claudine Costa - 2024.</p>
+
+
+    </footer> <!--rodape-->
+
+
+
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>

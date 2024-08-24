@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+ 
+
+/* * {
+    margin: 0;
+    padding: 0;
+ } */
+
+body {
+    background-color: #F3F5FC;
+    font-family: 'Inter', 'sans-serif';
+    width: 1440px;
+    height: 1024px;
+    top: 622px;
+    left: -2277px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+.conteudo__logo {
+    width: 120px;
+    height: 48px;
+
+    margin-top: 40px;
+    margin-left: 40px;
+    gap: 40px;
+}
+
+
+
+.conteudo__principal {   /*divide  a section e lado B*/
+    /* tag pai*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+#ladoA {
+    background-color: #f1f4f8;
+    color: #0A3871;
+    
+    border-radius: 20px;
+    border: 0.5px solid #F3F5FC;
+    font-family: "Inter", "sans-serif";
+    font-size: 18px;
+    margin: 8px;
+    padding: 8px;
+    margin-left: 240px;
+   
+
+}
+
+.conteudo__alerta {
+    /* Apenas letras minusculas e sem acento */
+      /* Digite seu texto*/
+      font-family: 'Inter', 'sans-serif';
+      color: #0A3871;
+      size: 32px;
+      font-weight: 400;
+      line-height: 48px;
+      font-size: 12px;
+  
+      width: 680px;
+      height: 48px;
+      margin-top: 150px;
+      margin-left: 240px;
+      opacity: 0px;
+    
+}
+
+
+
+.conteudo__botao {
+    /* Apenas letras minusculas e sem acento */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+   
+   
+
+}
+
+
+
+.conteudo__botao__usuario {
+    /* container com  dois botoes */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 240px;   
+
+
+    border: 1px solid#0A3871;
+    border-radius: 24px;
+    font-size: 1.0rem;
+    text-decoration: none;
+    background: #D8DFE8;
+    color: #0A3871;
+
+    font-family: 20px;
+    width: 300px;  /*largura do botao */
+    height: 60px;
+
+    gap: 24px;
+   
+
+ 
+
+
+
+}
+
+
+.conteudo__botao__usuario1 {
+    /* botao do container ao lado  */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 40px;
+   
+    
+    border: 1px solid#0A3871;
+    border-radius: 24px;
+    font-size: 1.0rem;
+    text-decoration: none;
+    background: #D8DFE8;
+    color: #0A3871;
+
+    font-family: 20px;
+    width: 300px;
+    height: 60px;
+
+
+}
+
+
+
+.conteudo__botao :hover {
+    /* efeito mudar cor de fundo e cor da letra */
+    background-color: #0A3871;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 0px;
+}
+
+
+.conteudo__ladoB {
+    /* container caixa branca*/
+    background-color: #ffffff;
+    width:400px;
+    height: 900px;
+  
+    border-radius: 32px;
+    opacity: 0px;
+    box-shadow: 0px 24px 32px -8px #00000014;
+ 
+
+}
+
+
+ .textarea{
+    padding:12px;
+    margin:12px;
+    border: none;
+    font-family: 'Inter', 'sans-serif';
+    font-size: 20px;
+} 
+
+.conteudo__imagem {
+    /* imagem menino e lupa procura ....*/
+    width: 336px;
+    height: 150px;
+    margin-top: 226px;
+    left: 1032px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 40px;
+  }
+
+.conteudo__aviso h2 {
+    /* nenhuma mensagem encontrada*/
+    font-size: 24px;
+    color: #343a40;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+   
+
+    width: 300px;
+    height:122px;
+    gap: 16px;
+
+}
+
+.conteudo__digiteAqui {
+    /* digite um texto que voce deseja ....*/
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #495057;
+
+    width: 300px;
+    height: 35px;
+   
+    opacity: 0px;
+
+
+}
+
+.rodape {
+    background-color: #0A3871;
+    font-family: "Inter" sans-serif;
+    text-align: center;
+    color: #D8DFE8;
+    font-size: 16px;
+
+    padding: 1.1px;
+    opacity: 0.8;
+    width: 100%;
+
+}
